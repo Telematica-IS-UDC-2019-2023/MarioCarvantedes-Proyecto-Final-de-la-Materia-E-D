@@ -7,14 +7,14 @@ if (!String.contains) {
 
 
 function recorrerEnOrden() {
-    var log1 = [],
-        log2 = [];
+    var vector1 = [],
+        vector2 = [];
 
-    Recorrido.preorden(nodoActual, log1);
-    console.info(" PreOrden", log1)
+    Recorrido.preorden(nodoActual, vector1);
+    console.info(" PreOrden", vector1)
 
-    Recorrido.postorden(nodoActual, log2);
-    console.info("PostOrden", log2)
+    Recorrido.postorden(nodoActual, vector2);
+    console.info("PostOrden", vector2)
 
 }
 
